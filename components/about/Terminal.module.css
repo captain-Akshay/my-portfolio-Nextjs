@@ -1,0 +1,52 @@
+.wrapper i {
+  padding-left: 0.5rem;
+}
+i.redd {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ff6057;
+  padding: 0;
+  margin-right: 4px;
+}
+i.amber {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffbd2e;;
+  padding: 0;
+  margin-right: 4px;
+}
+i.greenn {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #27c93f;;
+  padding: 0;
+  margin-right: 4px;
+}
+.terminal p, .terminal li {
+  margin: 1rem 0;
+  color: #f8f8f8;
+}
+.terminal a, .terminal a:visited {
+  animation: changeColors 3s infinite;
+  font-weight: bold;
+}
+@keyframes changeColors {
+  0% {
+    color: #00a47f;
+ }
+  33.3% {
+    color: #1d91e3;
+ }
+  66.6% {
+    color: #d419fe;
+ }
+  100% {
+    color: #00a47f;
+ }
+}
