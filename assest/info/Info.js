@@ -12,7 +12,7 @@ export const info = {
   miniBio: [
     {
       emoji: "🇮🇳",
-      text: "based in the Chandigarh, India",
+      text: "based in Chandigarh, India",
     },
     {
       emoji: "💻",
@@ -35,7 +35,7 @@ export const info = {
       label: "github",
     },
   ],
-  bio: "Hello! I'm Akshay Sharma. I'm a Full Stack Developer. I studied BE.CSE(AIML) at CU, I enjoy building web applications and learning new technologies. I'm currently working at nextjs to be a Full Stack Developer. I'm also a freelancer . I love to travel and explore new places. I'm currently based in India.",
+  bio: "Greetings and salutations! My name is Akshay Sharma, and I proudly serve as a proficient Full Stack Developer. I am currently pursuing my studies in BE.CSE(AIML) at CU, where I am acquiring a robust foundation in the realm of computer science and engineering. My greatest delight lies in the creation of exemplary web applications, all the while keeping a keen eye on the ever-evolving landscape of cutting-edge technologies.",
   skills: {
     languages: [
       "TypeScript",
