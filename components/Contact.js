@@ -218,6 +218,7 @@ export default function Contact() {
               Your Name
             </label>
             <input
+              placeholder="Name"
               ref={nameRef}
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
@@ -227,6 +228,7 @@ export default function Contact() {
               Email
             </label>
             <input
+              placeholder="Email"
               ref={emailRef}
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
@@ -239,6 +241,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              placeholder="Your Message"
               rows="4"
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
