@@ -49,6 +49,7 @@ export const info = {
       "React",
       "React Native",
       "Redux",
+      "Tailwind-CSS",
       "Material UI",
       "Express",
       "NestJS",
@@ -56,7 +57,7 @@ export const info = {
       "Django/Flask",
     ],
     databases: ["MySQl", "MongoDB"],
-    cloudServices: ["AWS S3", "Google Analytics", "Heroku", "Netlify"],
+    cloudServices: ["Google Analytics", "Heroku", "Netlify", "AWS"],
     tools: ["Git", "Postman", "npm", "yarn", "Maven"],
   },
   hobbies: [
