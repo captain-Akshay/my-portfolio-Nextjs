@@ -84,7 +84,7 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Community For Tech Leads to connect and Prompt Engineer",
+      title: "Community Builder and Prompt Space",
       live: "https://next-nation.vercel.app/",
       source: "https://github.com/captain-Akshay/my-portfolio-Nextjs",
       image: "https://i.imgur.com/VBEjxSp.png",
