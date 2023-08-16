@@ -97,13 +97,13 @@ export const info = {
     },
     {
       title: "AIML project for Image Classification",
-      live: null,
+      live: "",
       source: "https://github.com/captain-Akshay/ML-project_dogBreed",
       image: "https://i.imgur.com/BZlOIKp.png",
     },
     {
       title: "AIML project for Twitter Sentiment Analysis",
-      live: null,
+      live: "",
       source: "https://github.com/captain-Akshay/Twitter-sentiment-website",
       image: "https://i.imgur.com/i82ZxoY.png",
     },
