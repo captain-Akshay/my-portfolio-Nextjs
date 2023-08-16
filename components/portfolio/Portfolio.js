@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import PortfolioBlock from "./PortfolioBlock";
 import { Box, Grid } from "@mui/material";
 import { info } from "../../assest/info/Info";
 import userData from "@/constants/data";
+import { useTheme } from "@emotion/react";
 export default function Portfolio() {
+  const [isDark, setIsDark] = useState(true);
+  const { theme, setTheme } = useTheme();
   return (
     <>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
           <h1
-            className={`text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left`}
+            className={`text-6xl lg:text-9xl max-w-lg font-bold  my-20 md:my-0 ${
+              theme === "dark" ? "md:text-white" : "md:text-black"
+            }text-center lg:text-left`}
           >
             Project List
           </h1>
