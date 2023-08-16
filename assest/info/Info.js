@@ -84,6 +84,12 @@ export const info = {
   ],
   portfolio: [
     {
+      title: "Community For Tech Leads to connect and Prompt Engineer",
+      live: "https://next-nation.vercel.app/",
+      source: "https://github.com/captain-Akshay/my-portfolio-Nextjs",
+      image: "https://i.imgur.com/VBEjxSp.png",
+    },
+    {
       title: "Social Website For NOFAP COMMUNITY",
       live: "https://menford.tech",
       source: "https://github.com/captain-Akshay/NoFap-Community-FrontEnd",
